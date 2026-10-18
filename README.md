@@ -94,8 +94,6 @@ code, so they are the same for every dump of the same build.
 * **Flashing a modified firmware can brick the GameShark.** Keep a dump of the
   original and make sure you can reflash it with an external programmer.
 * Old key codes no longer work with the patched firmware, and vice versa.
-* Remove any `DE`/`F1` codes previously used as a workaround for Aleck64
-  games.
 * The loader stub is placed 0x300 bytes below the stack pointer; this assumes
   the menu's stack is less than about 6 KB deep when a game is started.
 * Tested in a CPU emulator (launch path, copy length, register values); test
